@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AB4E29D-FE35-47D7-AF00-599E0826B01B}</ProjectGuid>
+    <ProjectGuid>{3EC33036-D633-4CF9-AB85-A3B3AFCB7FBF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02._12._22</RootNamespace>
-    <AssemblyName>02.12.22</AssemblyName>
+    <RootNamespace>_09._12._22</RootNamespace>
+    <AssemblyName>09.12.22</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classs.cs" />
-    <Compile Include="Encapsulation.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Value.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
